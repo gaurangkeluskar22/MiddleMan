@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="First Screen"
+            android:id="@+id/first"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:textFontWeight="400"/>
+        <Button
+            android:padding="5dp"
+            android:text="Second Screen"
+            android:id="@+id/second"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:textFontWeight="400"/>
+        <Button
+            android:padding="5dp"
+            android:text="Third Screen"
+            android:id="@+id/third"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:textFontWeight="400"/>
+        <Button
+            android:padding="5dp"
+            android:text="Fourth Screen"
+            android:id="@+id/fourth"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:textFontWeight="400"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
