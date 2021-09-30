@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "709838720346",
+    "project_id": "middleman-adb5a",
+    "storage_bucket": "middleman-adb5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709838720346:android:675b5bc15e7bd4a56e3763",
+        "android_client_info": {
+          "package_name": "com.example.middleman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709838720346-ea1o53r39bkdphgpc4rk0kko34glumc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPPI3W4jq6_jrd8uQ38PCLfOrMKSsoteE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709838720346-ea1o53r39bkdphgpc4rk0kko34glumc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

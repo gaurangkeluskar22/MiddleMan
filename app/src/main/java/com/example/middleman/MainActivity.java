@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button second = findViewById(R.id.second);
         Button third = findViewById(R.id.third);
         Button fourth = findViewById(R.id.fourth);
+        Button signup = findViewById(R.id.signup_screen);
 
         first.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,5 +52,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(fourth_intent);
             }
         });
+
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent signup_intent = new Intent(MainActivity.this, signup.class);
+                startActivity(signup_intent);
+            }
+        });
+
     }
 }

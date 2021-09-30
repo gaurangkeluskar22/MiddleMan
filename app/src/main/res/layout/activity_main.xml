@@ -50,6 +50,16 @@
             android:fontFamily="sans-serif-thin"
             android:textFontWeight="400"/>
 
+        <Button
+            android:padding="5dp"
+            android:text="Signup screen"
+            android:id="@+id/signup_screen"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:textFontWeight="400"/>
+
     </LinearLayout>
 
 

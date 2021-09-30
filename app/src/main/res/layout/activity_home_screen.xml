@@ -44,6 +44,7 @@
         android:layout_weight="1"/>
 
     <ImageView
+        android:id="@+id/profile_image"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/demo_face"
