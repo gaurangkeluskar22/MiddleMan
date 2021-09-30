@@ -20,10 +20,11 @@
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/twotone_bed_black_24dp.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/twotone_bed_black_48dp.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_detail.xml" value="0.2" />
-        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_get_started.xml" value="0.1" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_get_started.xml" value="0.2" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_home_screen.xml" value="0.2" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/signup.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
