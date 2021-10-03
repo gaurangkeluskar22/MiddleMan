@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:scrollbars="none"
+    tools:context=".SellHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/property_name_textinputedittext"
+                android:hint="Property Name"
+                android:inputType="text"
+                android:fontFamily="sans-serif-thin"
+                android:textFontWeight="400"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/property_BHK_textinputedittext"
+                android:hint="BHK"
+                android:inputType="text"
+                android:fontFamily="sans-serif-thin"
+                android:textFontWeight="400"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/property_area_textinputedittext"
+                android:hint="Area"
+                android:inputType="text"
+                android:fontFamily="sans-serif-thin"
+                android:textFontWeight="400"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/property_price_textinputedittext"
+                android:hint="Price"
+                android:inputType="text"
+                android:fontFamily="sans-serif-thin"
+                android:textFontWeight="400"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/property_address_textinputedittext"
+                android:hint="Address"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:fontFamily="sans-serif-thin"
+                android:textFontWeight="400"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/property_locality_textinputedittext"
+                android:hint="Locality"
+                android:fontFamily="sans-serif-thin"
+                android:textFontWeight="400"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/property_owner_name_textinputedittext"
+                android:hint="Property Owner's Name"
+                android:inputType="text"
+                android:fontFamily="sans-serif-thin"
+                android:textFontWeight="400"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/property_phone_number_textinputedittext"
+                android:hint="Property Owner's Phone Number"
+                android:inputType="phone"
+                android:fontFamily="sans-serif-thin"
+                android:textFontWeight="400"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/upload_front_image_imageview"
+                android:src="@drawable/upload_image_photo"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:elevation="0dp"/>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/upload_first_image_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:elevation="0dp"
+                    android:text="Upload image 1"
+                    android:fontFamily="sans-serif-thin"
+                    android:textFontWeight="400"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/upload_second_image_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:elevation="0dp"
+                    android:text="Upload image 2"
+                    android:fontFamily="sans-serif-thin"
+                    android:textFontWeight="400"/>
+
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/upload_first_third_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:elevation="0dp"
+                    android:text="Upload image 3"
+                    android:fontFamily="sans-serif-thin"
+                    android:textFontWeight="400"/>
+                <Button
+                    android:layout_margin="1dp"
+                    android:id="@+id/aupload_first_fourth_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:textColor="#000"
+                    android:elevation="0dp"
+                    android:text="Upload image 4"
+                    android:fontFamily="sans-serif-thin"
+                    android:textFontWeight="400"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/add_property_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:textColor="#fff"
+            android:elevation="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="ADD PROPERTY"
+            android:fontFamily="sans-serif-thin"
+            android:textFontWeight="400"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

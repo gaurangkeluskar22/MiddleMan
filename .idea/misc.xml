@@ -13,20 +13,24 @@
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/curvy_button.xml" value="0.16" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/curvy_button_rating.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/ic_baseline_whatshot_24.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/twotone_aspect_ratio_black_48dp.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/twotone_bathroom_black_48dp.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/twotone_bed_black_24dp.xml" value="0.2203125" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/drawable/twotone_bed_black_48dp.xml" value="0.2203125" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_buy_home.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_detail.xml" value="0.2" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_forget_password.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_get_started.xml" value="0.2" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_home_screen.xml" value="0.2" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_sell_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/gaura/AndroidStudioProjects/Middleman/app/src/main/res/layout/signup.xml" value="0.20416666666666666" />
       </map>
     </option>

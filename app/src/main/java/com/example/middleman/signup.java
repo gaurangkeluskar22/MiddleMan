@@ -61,6 +61,8 @@ public class signup extends AppCompatActivity{
         String email_id = editText_email_id.getText().toString().trim();
         String password = editText_password.getText().toString().trim();
         String phone_number = editText_phone_number.getText().toString().trim();
+        String user_address="";
+        String profile_image_url = "https://firebasestorage.googleapis.com/v0/b/middleman-adb5a.appspot.com/o/images%2Fdemo_face.png?alt=media&token=0189a8f1-bb3f-4fbc-9bd1-d370c34c2a88";
 
         if(full_name.isEmpty()){
             editText_full_name.setError("Full Name is required!");
@@ -97,7 +99,7 @@ public class signup extends AppCompatActivity{
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
-                    User user = new User(full_name,email_id,phone_number);
+                    User user = new User(full_name,email_id,phone_number,user_address,profile_image_url);
 
                     FirebaseDatabase.getInstance("https://middleman-adb5a-default-rtdb.firebaseio.com/").getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
